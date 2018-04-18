@@ -1,0 +1,20 @@
+{
+  "name": "requestheaderparsermicroservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engine": {
+    "node": "9.11.1"
+  },
+  "author": "Jean-Marc Kampol Mieville",
+  "license": "ISC",
+  "dependencies": {
+    "accepts": "^1.3.5",
+    "browser-detect": "^0.2.26",
+    "express": "^4.16.3"
+  }
+}
